@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Colombia",
+    "cities": [
+      {
+        "id": 1,
+        "name": "Bogotá",
+        "offices": [
+          { "id": 1, "name": "Oficina Centro", "employees": 25, "revenue": 120000, "ticketsOpen": 5 },
+          { "id": 2, "name": "Oficina Norte", "employees": 15, "revenue": 80000, "ticketsOpen": 2 },
+          { "id": 3, "name": "Oficina Sur", "employees": 20, "revenue": 95000, "ticketsOpen": 7 }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Medellín",
+        "offices": [
+          { "id": 4, "name": "Oficina Poblado", "employees": 18, "revenue": 110000, "ticketsOpen": 4 },
+          { "id": 5, "name": "Oficina Laureles", "employees": 12, "revenue": 70000, "ticketsOpen": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "México",
+    "cities": [
+      {
+        "id": 3,
+        "name": "Ciudad de México",
+        "offices": [
+          { "id": 6, "name": "Oficina Centro", "employees": 30, "revenue": 150000, "ticketsOpen": 6 },
+          { "id": 7, "name": "Oficina Norte", "employees": 20, "revenue": 90000, "ticketsOpen": 3 }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Guadalajara",
+        "offices": [
+          { "id": 8, "name": "Oficina Chapultepec", "employees": 22, "revenue": 100000, "ticketsOpen": 2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "España",
+    "cities": [
+      {
+        "id": 5,
+        "name": "Madrid",
+        "offices": [
+          { "id": 9, "name": "Oficina Centro", "employees": 28, "revenue": 130000, "ticketsOpen": 5 },
+          { "id": 10, "name": "Oficina Norte", "employees": 15, "revenue": 85000, "ticketsOpen": 2 }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Barcelona",
+        "offices": [
+          { "id": 11, "name": "Oficina Eixample", "employees": 18, "revenue": 95000, "ticketsOpen": 3 },
+          { "id": 12, "name": "Oficina Gracia", "employees": 12, "revenue": 60000, "ticketsOpen": 1 }
+        ]
+      }
+    ]
+  }
+]
