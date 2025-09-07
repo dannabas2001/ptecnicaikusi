@@ -2,22 +2,205 @@
   {
     "id": 1,
     "name": "Colombia",
+    "type": "country",
+    "code": "CO",
+    "totalEmployees": 1250,
+    "totalRevenue": 2500000,
     "cities": [
       {
-        "id": 1,
+        "id": 101,
         "name": "Bogotá",
+        "type": "city",
+        "countryId": 1,
+        "population": 8000000,
+        "totalEmployees": 450,
+        "totalRevenue": 950000,
         "offices": [
-          { "id": 1, "name": "Oficina Centro", "employees": 25, "revenue": 120000, "ticketsOpen": 5 },
-          { "id": 2, "name": "Oficina Norte", "employees": 15, "revenue": 80000, "ticketsOpen": 2 },
-          { "id": 3, "name": "Oficina Sur", "employees": 20, "revenue": 95000, "ticketsOpen": 7 }
+          {
+            "id": 1001,
+            "name": "Oficina Centro",
+            "type": "office",
+            "cityId": 101,
+            "address": "Calle 72 #10-07",
+            "employees": 180,
+            "revenue": 420000,
+            "department": "Tecnología",
+            "tickets":120,
+            "monthlyData": [
+              { "month": "Ene", "sales": 35000, "expenses": 28000, "profit": 7000 },
+              { "month": "Feb", "sales": 42000, "expenses": 31000, "profit": 11000 },
+              { "month": "Mar", "sales": 38000, "expenses": 29000, "profit": 9000 },
+              { "month": "Apr", "sales": 45000, "expenses": 33000, "profit": 12000 },
+              { "month": "May", "sales": 52000, "expenses": 36000, "profit": 16000 },
+              { "month": "Jun", "sales": 48000, "expenses": 35000, "profit": 13000 }
+            ]
+          },
+          {
+            "id": 1002,
+            "name": "Oficina Norte",
+            "type": "office",
+            "cityId": 101,
+            "address": "Carrera 15 #93-47",
+            "employees": 120,
+            "revenue": 280000,
+            "tickets":130,
+            "department": "Ventas",
+            "monthlyData": [
+              { "month": "Ene", "sales": 28000, "expenses": 22000, "profit": 6000 },
+              { "month": "Feb", "sales": 31000, "expenses": 24000, "profit": 7000 },
+              { "month": "Mar", "sales": 29000, "expenses": 23000, "profit": 6000 },
+              { "month": "Apr", "sales": 34000, "expenses": 26000, "profit": 8000 },
+              { "month": "May", "sales": 36000, "expenses": 27000, "profit": 9000 },
+              { "month": "Jun", "sales": 33000, "expenses": 25000, "profit": 8000 }
+            ]
+          },
+          {
+            "id": 1003,
+            "name": "Oficina Zona Rosa",
+            "type": "office",
+            "cityId": 101,
+            "address": "Zona Rosa #85-32",
+            "employees": 150,
+            "revenue": 250000,
+            "tickets":90,
+            "department": "Marketing",
+            "monthlyData": [
+              { "month": "Ene", "sales": 25000, "expenses": 20000, "profit": 5000 },
+              { "month": "Feb", "sales": 27000, "expenses": 21000, "profit": 6000 },
+              { "month": "Mar", "sales": 26000, "expenses": 20500, "profit": 5500 },
+              { "month": "Apr", "sales": 30000, "expenses": 23000, "profit": 7000 },
+              { "month": "May", "sales": 32000, "expenses": 24000, "profit": 8000 },
+              { "month": "Jun", "sales": 29000, "expenses": 22000, "profit": 7000 }
+            ]
+          }
         ]
       },
       {
-        "id": 2,
+        "id": 102,
         "name": "Medellín",
+        "type": "city",
+        "countryId": 1,
+        "population": 2500000,
+        "totalEmployees": 320,
+        "totalRevenue": 680000,
         "offices": [
-          { "id": 4, "name": "Oficina Poblado", "employees": 18, "revenue": 110000, "ticketsOpen": 4 },
-          { "id": 5, "name": "Oficina Laureles", "employees": 12, "revenue": 70000, "ticketsOpen": 1 }
+          {
+            "id": 1004,
+            "name": "Oficina Poblado",
+            "type": "office",
+            "cityId": 102,
+            "address": "El Poblado #43-87",
+            "employees": 200,
+            "revenue": 450000,
+            "tickets":150,
+            "department": "Tecnología",
+            "monthlyData": [
+              { "month": "Ene", "sales": 40000, "expenses": 32000, "profit": 8000 },
+              { "month": "Feb", "sales": 43000, "expenses": 34000, "profit": 9000 },
+              { "month": "Mar", "sales": 41000, "expenses": 33000, "profit": 8000 },
+              { "month": "Apr", "sales": 47000, "expenses": 37000, "profit": 10000 },
+              { "month": "May", "sales": 49000, "expenses": 38000, "profit": 11000 },
+              { "month": "Jun", "sales": 45000, "expenses": 36000, "profit": 9000 }
+            ]
+          },
+          {
+            "id": 1005,
+            "name": "Oficina Laureles",
+            "type": "office",
+            "cityId": 102,
+            "address": "Laureles #70-25",
+            "employees": 120,
+            "revenue": 230000,
+            "tickets":190,
+            "department": "Recursos Humanos",
+            "monthlyData": [
+              { "month": "Ene", "sales": 22000, "expenses": 18000, "profit": 4000 },
+              { "month": "Feb", "sales": 24000, "expenses": 19000, "profit": 5000 },
+              { "month": "Mar", "sales": 23000, "expenses": 18500, "profit": 4500 },
+              { "month": "Apr", "sales": 26000, "expenses": 20000, "profit": 6000 },
+              { "month": "May", "sales": 28000, "expenses": 21000, "profit": 7000 },
+              { "month": "Jun", "sales": 25000, "expenses": 19500, "profit": 5500 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 103,
+        "name": "Cali",
+        "type": "city",
+        "countryId": 1,
+        "population": 2200000,
+        "totalEmployees": 280,
+        "totalRevenue": 590000,
+        "offices": [
+          {
+            "id": 1006,
+            "name": "Oficina Sur",
+            "type": "office",
+            "cityId": 103,
+            "address": "Sur #26-45",
+            "employees": 160,
+            "revenue": 340000,
+            "tickets":87,
+            "department": "Operaciones",
+            "monthlyData": [
+              { "month": "Ene", "sales": 30000, "expenses": 25000, "profit": 5000 },
+              { "month": "Feb", "sales": 32000, "expenses": 26000, "profit": 6000 },
+              { "month": "Mar", "sales": 31000, "expenses": 25500, "profit": 5500 },
+              { "month": "Apr", "sales": 35000, "expenses": 28000, "profit": 7000 },
+              { "month": "May", "sales": 37000, "expenses": 29000, "profit": 8000 },
+              { "month": "Jun", "sales": 34000, "expenses": 27000, "profit": 7000 }
+            ]
+          },
+          {
+            "id": 1007,
+            "name": "Oficina Centro",
+            "type": "office",
+            "cityId": 103,
+            "address": "Centro #12-89",
+            "employees": 120,
+            "revenue": 250000,
+            "tickets":65,
+            "department": "Finanzas",
+            "monthlyData": [
+              { "month": "Ene", "sales": 24000, "expenses": 20000, "profit": 4000 },
+              { "month": "Feb", "sales": 26000, "expenses": 21000, "profit": 5000 },
+              { "month": "Mar", "sales": 25000, "expenses": 20500, "profit": 4500 },
+              { "month": "Apr", "sales": 28000, "expenses": 22000, "profit": 6000 },
+              { "month": "May", "sales": 30000, "expenses": 23000, "profit": 7000 },
+              { "month": "Jun", "sales": 27000, "expenses": 21500, "profit": 5500 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 104,
+        "name": "Barranquilla",
+        "type": "city",
+        "countryId": 1,
+        "population": 1200000,
+        "totalEmployees": 200,
+        "totalRevenue": 280000,
+        "offices": [
+          {
+            "id": 1008,
+            "name": "Oficina Costa",
+            "type": "office",
+            "cityId": 104,
+            "address": "Costa #45-12",
+            "employees": 200,
+            "tickets":89,
+            "revenue": 280000,
+            "department": "Logística",
+            "monthlyData": [
+              { "month": "Ene", "sales": 26000, "expenses": 22000, "profit": 4000 },
+              { "month": "Feb", "sales": 28000, "expenses": 23000, "profit": 5000 },
+              { "month": "Mar", "sales": 27000, "expenses": 22500, "profit": 4500 },
+              { "month": "Apr", "sales": 30000, "expenses": 24000, "profit": 6000 },
+              { "month": "May", "sales": 32000, "expenses": 25000, "profit": 7000 },
+              { "month": "Jun", "sales": 29000, "expenses": 23500, "profit": 5500 }
+            ]
+          }
         ]
       }
     ]
@@ -25,42 +208,343 @@
   {
     "id": 2,
     "name": "México",
+    "type": "country",
+    "code": "MX",
+    "totalEmployees": 1850,
+    "totalRevenue": 3200000,
     "cities": [
       {
-        "id": 3,
+        "id": 201,
         "name": "Ciudad de México",
+        "type": "city",
+        "countryId": 2,
+        "population": 9200000,
+        "totalEmployees": 680,
+        "totalRevenue": 1400000,
         "offices": [
-          { "id": 6, "name": "Oficina Centro", "employees": 30, "revenue": 150000, "ticketsOpen": 6 },
-          { "id": 7, "name": "Oficina Norte", "employees": 20, "revenue": 90000, "ticketsOpen": 3 }
+          {
+            "id": 2001,
+            "name": "Oficina Polanco",
+            "type": "office",
+            "cityId": 201,
+            "address": "Polanco #234-56",
+            "employees": 250,
+            "revenue": 580000,
+            "tickets":43,
+            "department": "Tecnología",
+            "monthlyData": [
+              { "month": "Ene", "sales": 55000, "expenses": 42000, "profit": 13000 },
+              { "month": "Feb", "sales": 58000, "expenses": 44000, "profit": 14000 },
+              { "month": "Mar", "sales": 56000, "expenses": 43000, "profit": 13000 },
+              { "month": "Apr", "sales": 62000, "expenses": 47000, "profit": 15000 },
+              { "month": "May", "sales": 65000, "expenses": 48000, "profit": 17000 },
+              { "month": "Jun", "sales": 60000, "expenses": 46000, "profit": 14000 }
+            ]
+          },
+          {
+            "id": 2002,
+            "name": "Oficina Roma Norte",
+            "type": "office",
+            "cityId": 201,
+            "address": "Roma Norte #145-23",
+            "employees": 180,
+            "revenue": 420000,
+            "tickets":94,
+            "department": "Diseño",
+            "monthlyData": [
+              { "month": "Ene", "sales": 38000, "expenses": 32000, "profit": 6000 },
+              { "month": "Feb", "sales": 41000, "expenses": 34000, "profit": 7000 },
+              { "month": "Mar", "sales": 39000, "expenses": 33000, "profit": 6000 },
+              { "month": "Apr", "sales": 44000, "expenses": 36000, "profit": 8000 },
+              { "month": "May", "sales": 46000, "expenses": 37000, "profit": 9000 },
+              { "month": "Jun", "sales": 42000, "expenses": 35000, "profit": 7000 }
+            ]
+          },
+          {
+            "id": 2003,
+            "name": "Oficina Santa Fe",
+            "type": "office",
+            "cityId": 201,
+            "address": "Santa Fe #678-90",
+            "employees": 250,
+            "revenue": 400000,
+            "tickets":64,
+            "department": "Ventas",
+            "monthlyData": [
+              { "month": "Ene", "sales": 42000, "expenses": 35000, "profit": 7000 },
+              { "month": "Feb", "sales": 45000, "expenses": 37000, "profit": 8000 },
+              { "month": "Mar", "sales": 43000, "expenses": 36000, "profit": 7000 },
+              { "month": "Apr", "sales": 48000, "expenses": 39000, "profit": 9000 },
+              { "month": "May", "sales": 50000, "expenses": 40000, "profit": 10000 },
+              { "month": "Jun", "sales": 46000, "expenses": 38000, "profit": 8000 }
+            ]
+          }
         ]
       },
       {
-        "id": 4,
+        "id": 202,
         "name": "Guadalajara",
+        "type": "city",
+        "countryId": 2,
+        "population": 1500000,
+        "totalEmployees": 420,
+        "totalRevenue": 850000,
         "offices": [
-          { "id": 8, "name": "Oficina Chapultepec", "employees": 22, "revenue": 100000, "ticketsOpen": 2 }
+          {
+            "id": 2004,
+            "name": "Oficina Zapopan",
+            "type": "office",
+            "cityId": 202,
+            "address": "Zapopan #321-54",
+            "employees": 220,
+            "revenue": 480000,
+            "tickets":67,
+            "department": "Desarrollo",
+            "monthlyData": [
+              { "month": "Ene", "sales": 45000, "expenses": 38000, "profit": 7000 },
+              { "month": "Feb", "sales": 48000, "expenses": 40000, "profit": 8000 },
+              { "month": "Mar", "sales": 46000, "expenses": 39000, "profit": 7000 },
+              { "month": "Apr", "sales": 52000, "expenses": 42000, "profit": 10000 },
+              { "month": "May", "sales": 54000, "expenses": 43000, "profit": 11000 },
+              { "month": "Jun", "sales": 50000, "expenses": 41000, "profit": 9000 }
+            ]
+          },
+          {
+            "id": 2005,
+            "name": "Oficina Centro Histórico",
+            "type": "office",
+            "cityId": 202,
+            "address": "Centro #789-12",
+            "employees": 200,
+            "revenue": 370000,
+            "tickets":98,
+            "department": "Marketing",
+            "monthlyData": [
+              { "month": "Ene", "sales": 35000, "expenses": 30000, "profit": 5000 },
+              { "month": "Feb", "sales": 37000, "expenses": 31000, "profit": 6000 },
+              { "month": "Mar", "sales": 36000, "expenses": 30500, "profit": 5500 },
+              { "month": "Apr", "sales": 40000, "expenses": 33000, "profit": 7000 },
+              { "month": "May", "sales": 42000, "expenses": 34000, "profit": 8000 },
+              { "month": "Jun", "sales": 38000, "expenses": 32000, "profit": 6000 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 203,
+        "name": "Monterrey",
+        "type": "city",
+        "countryId": 2,
+        "population": 1100000,
+        "totalEmployees": 380,
+        "totalRevenue": 720000,
+        "offices": [
+          {
+            "id": 2006,
+            "name": "Oficina San Pedro",
+            "type": "office",
+            "cityId": 203,
+            "address": "San Pedro #456-78",
+            "employees": 190,
+            "revenue": 380000,
+            "tickets":76,
+            "department": "Finanzas",
+            "monthlyData": [
+              { "month": "Ene", "sales": 36000, "expenses": 30000, "profit": 6000 },
+              { "month": "Feb", "sales": 38000, "expenses": 31000, "profit": 7000 },
+              { "month": "Mar", "sales": 37000, "expenses": 30500, "profit": 6500 },
+              { "month": "Apr", "sales": 41000, "expenses": 33000, "profit": 8000 },
+              { "month": "May", "sales": 43000, "expenses": 34000, "profit": 9000 },
+              { "month": "Jun", "sales": 39000, "expenses": 32000, "profit": 7000 }
+            ]
+          },
+          {
+            "id": 2007,
+            "name": "Oficina Centro",
+            "type": "office",
+            "cityId": 203,
+            "address": "Centro #123-45",
+            "employees": 190,
+            "revenue": 340000,
+            "tickets":46,
+            "department": "Operaciones",
+            "monthlyData": [
+              { "month": "Ene", "sales": 32000, "expenses": 27000, "profit": 5000 },
+              { "month": "Feb", "sales": 34000, "expenses": 28000, "profit": 6000 },
+              { "month": "Mar", "sales": 33000, "expenses": 27500, "profit": 5500 },
+              { "month": "Apr", "sales": 37000, "expenses": 30000, "profit": 7000 },
+              { "month": "May", "sales": 39000, "expenses": 31000, "profit": 8000 },
+              { "month": "Jun", "sales": 35000, "expenses": 29000, "profit": 6000 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 204,
+        "name": "Tijuana",
+        "type": "city",
+        "countryId": 2,
+        "population": 700000,
+        "totalEmployees": 370,
+        "totalRevenue": 230000,
+        "offices": [
+          {
+            "id": 2008,
+            "name": "Oficina Zona Río",
+            "type": "office",
+            "cityId": 204,
+            "address": "Zona Río #890-23",
+            "employees": 370,
+            "revenue": 230000,
+            "tickets":73,
+            "department": "Logística",
+            "monthlyData": [
+              { "month": "Ene", "sales": 22000, "expenses": 19000, "profit": 3000 },
+              { "month": "Feb", "sales": 24000, "expenses": 20000, "profit": 4000 },
+              { "month": "Mar", "sales": 23000, "expenses": 19500, "profit": 3500 },
+              { "month": "Apr", "sales": 26000, "expenses": 21000, "profit": 5000 },
+              { "month": "May", "sales": 28000, "expenses": 22000, "profit": 6000 },
+              { "month": "Jun", "sales": 25000, "expenses": 20500, "profit": 4500 }
+            ]
+          }
         ]
       }
     ]
   },
   {
     "id": 3,
-    "name": "España",
+    "name": "Argentina",
+    "type": "country",
+    "code": "AR",
+    "totalEmployees": 980,
+    "totalRevenue": 1800000,
     "cities": [
       {
-        "id": 5,
-        "name": "Madrid",
+        "id": 301,
+        "name": "Buenos Aires",
+        "type": "city",
+        "countryId": 3,
+        "population": 3000000,
+        "totalEmployees": 620,
+        "totalRevenue": 1200000,
         "offices": [
-          { "id": 9, "name": "Oficina Centro", "employees": 28, "revenue": 130000, "ticketsOpen": 5 },
-          { "id": 10, "name": "Oficina Norte", "employees": 15, "revenue": 85000, "ticketsOpen": 2 }
+          {
+            "id": 3001,
+            "name": "Oficina Palermo",
+            "type": "office",
+            "cityId": 301,
+            "address": "Palermo #567-89",
+            "employees": 200,
+            "revenue": 450000,
+            "tickets":78,
+            "department": "Tecnología",
+            "monthlyData": [
+              { "month": "Ene", "sales": 40000, "expenses": 33000, "profit": 7000 },
+              { "month": "Feb", "sales": 42000, "expenses": 34000, "profit": 8000 },
+              { "month": "Mar", "sales": 41000, "expenses": 33500, "profit": 7500 },
+              { "month": "Apr", "sales": 46000, "expenses": 37000, "profit": 9000 },
+              { "month": "May", "sales": 48000, "expenses": 38000, "profit": 10000 },
+              { "month": "Jun", "sales": 44000, "expenses": 36000, "profit": 8000 }
+            ]
+          },
+          {
+            "id": 3002,
+            "name": "Oficina Puerto Madero",
+            "type": "office",
+            "cityId": 301,
+            "address": "Puerto Madero #234-56",
+            "employees": 180,
+            "revenue": 400000,
+            "tickets":165,
+            "department": "Finanzas",
+            "monthlyData": [
+              { "month": "Ene", "sales": 38000, "expenses": 31000, "profit": 7000 },
+              { "month": "Feb", "sales": 40000, "expenses": 32000, "profit": 8000 },
+              { "month": "Mar", "sales": 39000, "expenses": 31500, "profit": 7500 },
+              { "month": "Apr", "sales": 43000, "expenses": 34000, "profit": 9000 },
+              { "month": "May", "sales": 45000, "expenses": 35000, "profit": 10000 },
+              { "month": "Jun", "sales": 41000, "expenses": 33000, "profit": 8000 }
+            ]
+          },
+          {
+            "id": 3003,
+            "name": "Oficina Belgrano",
+            "type": "office",
+            "cityId": 301,
+            "address": "Belgrano #345-67",
+            "employees": 240,
+            "revenue": 350000,
+            "tickets":105,
+            "department": "Marketing",
+            "monthlyData": [
+              { "month": "Ene", "sales": 33000, "expenses": 28000, "profit": 5000 },
+              { "month": "Feb", "sales": 35000, "expenses": 29000, "profit": 6000 },
+              { "month": "Mar", "sales": 34000, "expenses": 28500, "profit": 5500 },
+              { "month": "Apr", "sales": 38000, "expenses": 31000, "profit": 7000 },
+              { "month": "May", "sales": 40000, "expenses": 32000, "profit": 8000 },
+              { "month": "Jun", "sales": 36000, "expenses": 30000, "profit": 6000 }
+            ]
+          }
         ]
       },
       {
-        "id": 6,
-        "name": "Barcelona",
+        "id": 302,
+        "name": "Córdoba",
+        "type": "city",
+        "countryId": 3,
+        "population": 1400000,
+        "totalEmployees": 180,
+        "totalRevenue": 320000,
         "offices": [
-          { "id": 11, "name": "Oficina Eixample", "employees": 18, "revenue": 95000, "ticketsOpen": 3 },
-          { "id": 12, "name": "Oficina Gracia", "employees": 12, "revenue": 60000, "ticketsOpen": 1 }
+          {
+            "id": 3004,
+            "name": "Oficina Nueva Córdoba",
+            "type": "office",
+            "cityId": 302,
+            "address": "Nueva Córdoba #678-90",
+            "employees": 180,
+            "revenue": 320000,
+            "tickets":97,
+            "department": "Desarrollo",
+            "monthlyData": [
+              { "month": "Ene", "sales": 30000, "expenses": 25000, "profit": 5000 },
+              { "month": "Feb", "sales": 32000, "expenses": 26000, "profit": 6000 },
+              { "month": "Mar", "sales": 31000, "expenses": 25500, "profit": 5500 },
+              { "month": "Apr", "sales": 35000, "expenses": 28000, "profit": 7000 },
+              { "month": "May", "sales": 37000, "expenses": 29000, "profit": 8000 },
+              { "month": "Jun", "sales": 33000, "expenses": 27000, "profit": 6000 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 303,
+        "name": "Rosario",
+        "type": "city",
+        "countryId": 3,
+        "population": 950000,
+        "totalEmployees": 180,
+        "totalRevenue": 280000,
+        "offices": [
+          {
+            "id": 3005,
+            "name": "Oficina Centro",
+            "type": "office",
+            "cityId": 303,
+            "address": "Centro #789-01",
+            "employees": 180,
+            "revenue": 280000,
+            "tickets":69,
+            "department": "Ventas",
+            "monthlyData": [
+              { "month": "Ene", "sales": 26000, "expenses": 22000, "profit": 4000 },
+              { "month": "Feb", "sales": 28000, "expenses": 23000, "profit": 5000 },
+              { "month": "Mar", "sales": 27000, "expenses": 22500, "profit": 4500 },
+              { "month": "Apr", "sales": 31000, "expenses": 25000, "profit": 6000 },
+              { "month": "May", "sales": 33000, "expenses": 26000, "profit": 7000 },
+              { "month": "Jun", "sales": 29000, "expenses": 24000, "profit": 5000 }
+            ]
+          }
         ]
       }
     ]

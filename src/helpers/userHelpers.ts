@@ -9,6 +9,7 @@ export function createUser(newUser: Omit<User, "id">): User {
   const users = getUsers();
   const existingUser = users.find(u => u.email === newUser.email);
   if (existingUser) {
+    alert('Ya tienes una cuenta, inenta con un correo diferente')
     throw new Error("El correo ya está registrado, intenta con otro.");
   }
   const nextId = users.length > 0 ? Math.max(...users.map((u: User) => u.id)) + 1 : 1;

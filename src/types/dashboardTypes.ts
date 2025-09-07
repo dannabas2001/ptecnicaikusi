@@ -4,7 +4,7 @@ export interface Office {
   name: string;
   employees: number;
   revenue: number;
-  ticketsOpen: number;
+  tickets: number;
 }
 
 export interface City {
@@ -19,18 +19,9 @@ export interface Country {
   name: string;
   cities: City[];
 }
-
-export type OfficeWithLocation = {
-  id: number;
-  name: string;
-  employees: number;
-  revenue: number;
-  ticketsOpen: number;
-  cityName: string;
-  countryName: string;
-};
 export type DashboardContextType = {
     countries: Country[];
+    setCountries: (value: Country[]) => void;
     selectedCountryId: number | null;
     selectedCityId: number | null;
     selectedOfficeId: number | null;
