@@ -58,7 +58,7 @@ El dashboard permite:
 
 Antes de correr el proyecto, asegúrate de tener instaladas las siguientes herramientas:
 
-- Node.js v18+
+- Node.js v20.19.0+
 - npm o yarn
 
 ## 🚀 Clonar e Instalar
