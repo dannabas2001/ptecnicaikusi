@@ -40,12 +40,9 @@ const Dashboard = () => {
         <Loader />
       ) : (
         <div className="flex-1 flex flex-col lg:flex-row overflow-hidden px-4 sm:px-6 lg:px-8 pb-6 gap-4">
-          {/* Sidebar de filtros */}
           <aside className="flex-shrink-0 w-full lg:w-64 bg-white/70 backdrop-blur-sm border border-gray-200/50 rounded-2xl p-4">
             <DashboardFilters />
           </aside>
-
-          {/* Área de charts */}
           <div className="flex-1 grid grid-cols-1 lg:grid-cols-2 gap-4 overflow-hidden">
             {[DashboardChart, EmployeesDoughnut, RevenueChart, TicketsPolarArea].map(
               (ChartComponent, idx) => (
