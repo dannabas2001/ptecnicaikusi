@@ -1,7 +1,7 @@
 import { useState, useEffect, type ReactNode, useCallback } from "react";
-import type { User } from "../types/loginTypes";
-import { AuthContext, type AuthContextType } from "../contexts/AuthContext";
+import type { AuthContextProps, User } from "../types/loginTypes";
 import { useDashboardContext } from "../hooks/useDashboardContext";
+import { AuthContext } from "../contexts/AuthContext";
 
 interface Props {
   children: ReactNode;
@@ -9,7 +9,7 @@ interface Props {
 
 export const AuthProvider = ({ children }: Props) => {
   const [user, setUser] = useState<User | null>(null);
-  const [status, setStatus] = useState<AuthContextType["status"]>("checking");
+  const [status, setStatus] = useState<AuthContextProps ["status"]>("checking");
 const {selectCountry}=useDashboardContext()
   const login = useCallback((user: User, token: string) => {
     localStorage.setItem("token", token);
