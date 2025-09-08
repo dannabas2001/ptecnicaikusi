@@ -209,7 +209,6 @@ export const EmployeesDoughnut = () => {
 
   return (
   <div className="w-full h-full flex flex-col min-h-0">
-  {/* Header */}
   <div className="flex-shrink-0 mb-4 md:mb-6">
     <div className="flex items-center space-x-3">
       <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
@@ -220,9 +219,7 @@ export const EmployeesDoughnut = () => {
     </p>
   </div>
 
-  {/* Contenedor responsivo */}
   <div className="flex flex-wrap md:flex-nowrap gap-6 md:gap-8 items-start md:items-center">
-    {/* Chart Container */}
     <div className="flex-1 min-w-[250px] max-w-[400px] flex justify-center items-center relative min-h-[200px]">
       <Doughnut data={chartData} options={options} />
       <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
@@ -233,7 +230,6 @@ export const EmployeesDoughnut = () => {
       </div>
     </div>
 
-    {/* Leyenda */}
     <div className="flex-1 min-w-[200px] flex flex-col justify-center  space-y-3">
       {labels.map((label, index) => {
         const value = data[index];
