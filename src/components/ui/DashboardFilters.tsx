@@ -1,7 +1,7 @@
-import { useDashboardContext } from "../hooks/useDashboardContext";
+import { useDashboardContext } from "../../hooks/useDashboardContext";
 import type { ChangeEvent } from "react";
 import { FaGlobe, FaCity, FaBuilding } from "react-icons/fa";
-import type { City, Country, Office } from "../types/dashboardTypes";
+import type { City, Country, Office } from "../../types/dashboardTypes";
 
 export const DashboardFilters = () => {
   const {

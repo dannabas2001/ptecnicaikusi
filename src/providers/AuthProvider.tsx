@@ -1,6 +1,7 @@
 import { useState, useEffect, type ReactNode, useCallback } from "react";
 import type { User } from "../types/loginTypes";
 import { AuthContext, type AuthContextType } from "../contexts/AuthContext";
+import { useDashboardContext } from "../hooks/useDashboardContext";
 
 interface Props {
   children: ReactNode;
@@ -9,7 +10,7 @@ interface Props {
 export const AuthProvider = ({ children }: Props) => {
   const [user, setUser] = useState<User | null>(null);
   const [status, setStatus] = useState<AuthContextType["status"]>("checking");
-
+const {selectCountry}=useDashboardContext()
   const login = useCallback((user: User, token: string) => {
     localStorage.setItem("token", token);
     localStorage.setItem("currentUser", JSON.stringify(user));
@@ -22,7 +23,8 @@ export const AuthProvider = ({ children }: Props) => {
     localStorage.removeItem("currentUser");
     setUser(null);
     setStatus("no-authenticated");
-  }, []);
+    selectCountry(null)
+  }, [selectCountry]);
 
   const checkAuth = useCallback(() => {
     const token = localStorage.getItem("token");

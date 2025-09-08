@@ -8,10 +8,12 @@ interface Props {
 
 export const DashboardProvider = ({ children }: Props) => {
   const [countries, setCountries] = useState<Country[]>([]);
-  const [selectedCountryId, setSelectedCountryId] = useState<number | null>(null);
+  const [selectedCountryId, setSelectedCountryId] = useState<number | null>(
+    null
+  );
   const [selectedCityId, setSelectedCityId] = useState<number | null>(null);
   const [selectedOfficeId, setSelectedOfficeId] = useState<number | null>(null);
-  const [loading, setLoading] = useState<boolean>(false);
+  const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
   const selectCountry = (id: number | null) => {
@@ -42,9 +44,11 @@ export const DashboardProvider = ({ children }: Props) => {
         selectCountry,
         selectCity,
         selectOffice,
+        setLoading,
+        setError,
       }}
     >
       {children}
     </DashboardContext.Provider>
   );
-}
+};

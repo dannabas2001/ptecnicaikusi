@@ -8,8 +8,9 @@ import {
 } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
 import { useContext } from "react";
-import { DashboardContext } from "../contexts/DashboardContext";
-import type { City, Country, Office } from "../types/dashboardTypes";
+import { DashboardContext } from "../../contexts/DashboardContext";
+import type { City, Country, Office } from "../../types/dashboardTypes";
+ 
 
 ChartJS.register(ArcElement, Tooltip, Legend, Title);
 

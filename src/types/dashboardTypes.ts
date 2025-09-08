@@ -25,13 +25,11 @@ export type DashboardContextType = {
     selectedCountryId: number | null;
     selectedCityId: number | null;
     selectedOfficeId: number | null;
-    filteredCities: City[];
-    filteredOffices: Office[];
     loading: boolean;
     error: string | null;
-    loadCountries: () => Promise<void>;
-    selectCountry: (id: number) => void;
+    selectCountry: (id: number|null) => void;
     selectCity: (id: number) => void;
     selectOffice: (id: number) => void;
-    updateMetrics: () => void;
+    setLoading:(loading:boolean)=>void;
+    setError:(error:string)=>void;
 };

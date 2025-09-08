@@ -25,15 +25,7 @@
             "employees": 180,
             "revenue": 420000,
             "department": "Tecnología",
-            "tickets":120,
-            "monthlyData": [
-              { "month": "Ene", "sales": 35000, "expenses": 28000, "profit": 7000 },
-              { "month": "Feb", "sales": 42000, "expenses": 31000, "profit": 11000 },
-              { "month": "Mar", "sales": 38000, "expenses": 29000, "profit": 9000 },
-              { "month": "Apr", "sales": 45000, "expenses": 33000, "profit": 12000 },
-              { "month": "May", "sales": 52000, "expenses": 36000, "profit": 16000 },
-              { "month": "Jun", "sales": 48000, "expenses": 35000, "profit": 13000 }
-            ]
+            "tickets":120
           },
           {
             "id": 1002,
@@ -44,15 +36,7 @@
             "employees": 120,
             "revenue": 280000,
             "tickets":130,
-            "department": "Ventas",
-            "monthlyData": [
-              { "month": "Ene", "sales": 28000, "expenses": 22000, "profit": 6000 },
-              { "month": "Feb", "sales": 31000, "expenses": 24000, "profit": 7000 },
-              { "month": "Mar", "sales": 29000, "expenses": 23000, "profit": 6000 },
-              { "month": "Apr", "sales": 34000, "expenses": 26000, "profit": 8000 },
-              { "month": "May", "sales": 36000, "expenses": 27000, "profit": 9000 },
-              { "month": "Jun", "sales": 33000, "expenses": 25000, "profit": 8000 }
-            ]
+            "department": "Ventas"
           },
           {
             "id": 1003,
@@ -63,15 +47,7 @@
             "employees": 150,
             "revenue": 250000,
             "tickets":90,
-            "department": "Marketing",
-            "monthlyData": [
-              { "month": "Ene", "sales": 25000, "expenses": 20000, "profit": 5000 },
-              { "month": "Feb", "sales": 27000, "expenses": 21000, "profit": 6000 },
-              { "month": "Mar", "sales": 26000, "expenses": 20500, "profit": 5500 },
-              { "month": "Apr", "sales": 30000, "expenses": 23000, "profit": 7000 },
-              { "month": "May", "sales": 32000, "expenses": 24000, "profit": 8000 },
-              { "month": "Jun", "sales": 29000, "expenses": 22000, "profit": 7000 }
-            ]
+            "department": "Marketing"
           }
         ]
       },
@@ -93,15 +69,7 @@
             "employees": 200,
             "revenue": 450000,
             "tickets":150,
-            "department": "Tecnología",
-            "monthlyData": [
-              { "month": "Ene", "sales": 40000, "expenses": 32000, "profit": 8000 },
-              { "month": "Feb", "sales": 43000, "expenses": 34000, "profit": 9000 },
-              { "month": "Mar", "sales": 41000, "expenses": 33000, "profit": 8000 },
-              { "month": "Apr", "sales": 47000, "expenses": 37000, "profit": 10000 },
-              { "month": "May", "sales": 49000, "expenses": 38000, "profit": 11000 },
-              { "month": "Jun", "sales": 45000, "expenses": 36000, "profit": 9000 }
-            ]
+            "department": "Tecnología"
           },
           {
             "id": 1005,
@@ -112,15 +80,7 @@
             "employees": 120,
             "revenue": 230000,
             "tickets":190,
-            "department": "Recursos Humanos",
-            "monthlyData": [
-              { "month": "Ene", "sales": 22000, "expenses": 18000, "profit": 4000 },
-              { "month": "Feb", "sales": 24000, "expenses": 19000, "profit": 5000 },
-              { "month": "Mar", "sales": 23000, "expenses": 18500, "profit": 4500 },
-              { "month": "Apr", "sales": 26000, "expenses": 20000, "profit": 6000 },
-              { "month": "May", "sales": 28000, "expenses": 21000, "profit": 7000 },
-              { "month": "Jun", "sales": 25000, "expenses": 19500, "profit": 5500 }
-            ]
+            "department": "Recursos Humanos"
           }
         ]
       },
@@ -142,15 +102,7 @@
             "employees": 160,
             "revenue": 340000,
             "tickets":87,
-            "department": "Operaciones",
-            "monthlyData": [
-              { "month": "Ene", "sales": 30000, "expenses": 25000, "profit": 5000 },
-              { "month": "Feb", "sales": 32000, "expenses": 26000, "profit": 6000 },
-              { "month": "Mar", "sales": 31000, "expenses": 25500, "profit": 5500 },
-              { "month": "Apr", "sales": 35000, "expenses": 28000, "profit": 7000 },
-              { "month": "May", "sales": 37000, "expenses": 29000, "profit": 8000 },
-              { "month": "Jun", "sales": 34000, "expenses": 27000, "profit": 7000 }
-            ]
+            "department": "Operaciones"
           },
           {
             "id": 1007,
@@ -161,15 +113,7 @@
             "employees": 120,
             "revenue": 250000,
             "tickets":65,
-            "department": "Finanzas",
-            "monthlyData": [
-              { "month": "Ene", "sales": 24000, "expenses": 20000, "profit": 4000 },
-              { "month": "Feb", "sales": 26000, "expenses": 21000, "profit": 5000 },
-              { "month": "Mar", "sales": 25000, "expenses": 20500, "profit": 4500 },
-              { "month": "Apr", "sales": 28000, "expenses": 22000, "profit": 6000 },
-              { "month": "May", "sales": 30000, "expenses": 23000, "profit": 7000 },
-              { "month": "Jun", "sales": 27000, "expenses": 21500, "profit": 5500 }
-            ]
+            "department": "Finanzas"
           }
         ]
       },
@@ -191,15 +135,7 @@
             "employees": 200,
             "tickets":89,
             "revenue": 280000,
-            "department": "Logística",
-            "monthlyData": [
-              { "month": "Ene", "sales": 26000, "expenses": 22000, "profit": 4000 },
-              { "month": "Feb", "sales": 28000, "expenses": 23000, "profit": 5000 },
-              { "month": "Mar", "sales": 27000, "expenses": 22500, "profit": 4500 },
-              { "month": "Apr", "sales": 30000, "expenses": 24000, "profit": 6000 },
-              { "month": "May", "sales": 32000, "expenses": 25000, "profit": 7000 },
-              { "month": "Jun", "sales": 29000, "expenses": 23500, "profit": 5500 }
-            ]
+            "department": "Logística"
           }
         ]
       }
@@ -231,15 +167,7 @@
             "employees": 250,
             "revenue": 580000,
             "tickets":43,
-            "department": "Tecnología",
-            "monthlyData": [
-              { "month": "Ene", "sales": 55000, "expenses": 42000, "profit": 13000 },
-              { "month": "Feb", "sales": 58000, "expenses": 44000, "profit": 14000 },
-              { "month": "Mar", "sales": 56000, "expenses": 43000, "profit": 13000 },
-              { "month": "Apr", "sales": 62000, "expenses": 47000, "profit": 15000 },
-              { "month": "May", "sales": 65000, "expenses": 48000, "profit": 17000 },
-              { "month": "Jun", "sales": 60000, "expenses": 46000, "profit": 14000 }
-            ]
+            "department": "Tecnología"
           },
           {
             "id": 2002,
@@ -250,15 +178,7 @@
             "employees": 180,
             "revenue": 420000,
             "tickets":94,
-            "department": "Diseño",
-            "monthlyData": [
-              { "month": "Ene", "sales": 38000, "expenses": 32000, "profit": 6000 },
-              { "month": "Feb", "sales": 41000, "expenses": 34000, "profit": 7000 },
-              { "month": "Mar", "sales": 39000, "expenses": 33000, "profit": 6000 },
-              { "month": "Apr", "sales": 44000, "expenses": 36000, "profit": 8000 },
-              { "month": "May", "sales": 46000, "expenses": 37000, "profit": 9000 },
-              { "month": "Jun", "sales": 42000, "expenses": 35000, "profit": 7000 }
-            ]
+            "department": "Diseño"
           },
           {
             "id": 2003,
@@ -269,15 +189,7 @@
             "employees": 250,
             "revenue": 400000,
             "tickets":64,
-            "department": "Ventas",
-            "monthlyData": [
-              { "month": "Ene", "sales": 42000, "expenses": 35000, "profit": 7000 },
-              { "month": "Feb", "sales": 45000, "expenses": 37000, "profit": 8000 },
-              { "month": "Mar", "sales": 43000, "expenses": 36000, "profit": 7000 },
-              { "month": "Apr", "sales": 48000, "expenses": 39000, "profit": 9000 },
-              { "month": "May", "sales": 50000, "expenses": 40000, "profit": 10000 },
-              { "month": "Jun", "sales": 46000, "expenses": 38000, "profit": 8000 }
-            ]
+            "department": "Ventas"
           }
         ]
       },
@@ -299,15 +211,7 @@
             "employees": 220,
             "revenue": 480000,
             "tickets":67,
-            "department": "Desarrollo",
-            "monthlyData": [
-              { "month": "Ene", "sales": 45000, "expenses": 38000, "profit": 7000 },
-              { "month": "Feb", "sales": 48000, "expenses": 40000, "profit": 8000 },
-              { "month": "Mar", "sales": 46000, "expenses": 39000, "profit": 7000 },
-              { "month": "Apr", "sales": 52000, "expenses": 42000, "profit": 10000 },
-              { "month": "May", "sales": 54000, "expenses": 43000, "profit": 11000 },
-              { "month": "Jun", "sales": 50000, "expenses": 41000, "profit": 9000 }
-            ]
+            "department": "Desarrollo"
           },
           {
             "id": 2005,
@@ -318,15 +222,7 @@
             "employees": 200,
             "revenue": 370000,
             "tickets":98,
-            "department": "Marketing",
-            "monthlyData": [
-              { "month": "Ene", "sales": 35000, "expenses": 30000, "profit": 5000 },
-              { "month": "Feb", "sales": 37000, "expenses": 31000, "profit": 6000 },
-              { "month": "Mar", "sales": 36000, "expenses": 30500, "profit": 5500 },
-              { "month": "Apr", "sales": 40000, "expenses": 33000, "profit": 7000 },
-              { "month": "May", "sales": 42000, "expenses": 34000, "profit": 8000 },
-              { "month": "Jun", "sales": 38000, "expenses": 32000, "profit": 6000 }
-            ]
+            "department": "Marketing"
           }
         ]
       },
@@ -348,15 +244,7 @@
             "employees": 190,
             "revenue": 380000,
             "tickets":76,
-            "department": "Finanzas",
-            "monthlyData": [
-              { "month": "Ene", "sales": 36000, "expenses": 30000, "profit": 6000 },
-              { "month": "Feb", "sales": 38000, "expenses": 31000, "profit": 7000 },
-              { "month": "Mar", "sales": 37000, "expenses": 30500, "profit": 6500 },
-              { "month": "Apr", "sales": 41000, "expenses": 33000, "profit": 8000 },
-              { "month": "May", "sales": 43000, "expenses": 34000, "profit": 9000 },
-              { "month": "Jun", "sales": 39000, "expenses": 32000, "profit": 7000 }
-            ]
+            "department": "Finanzas"
           },
           {
             "id": 2007,
@@ -367,15 +255,7 @@
             "employees": 190,
             "revenue": 340000,
             "tickets":46,
-            "department": "Operaciones",
-            "monthlyData": [
-              { "month": "Ene", "sales": 32000, "expenses": 27000, "profit": 5000 },
-              { "month": "Feb", "sales": 34000, "expenses": 28000, "profit": 6000 },
-              { "month": "Mar", "sales": 33000, "expenses": 27500, "profit": 5500 },
-              { "month": "Apr", "sales": 37000, "expenses": 30000, "profit": 7000 },
-              { "month": "May", "sales": 39000, "expenses": 31000, "profit": 8000 },
-              { "month": "Jun", "sales": 35000, "expenses": 29000, "profit": 6000 }
-            ]
+            "department": "Operaciones"
           }
         ]
       },
@@ -397,15 +277,7 @@
             "employees": 370,
             "revenue": 230000,
             "tickets":73,
-            "department": "Logística",
-            "monthlyData": [
-              { "month": "Ene", "sales": 22000, "expenses": 19000, "profit": 3000 },
-              { "month": "Feb", "sales": 24000, "expenses": 20000, "profit": 4000 },
-              { "month": "Mar", "sales": 23000, "expenses": 19500, "profit": 3500 },
-              { "month": "Apr", "sales": 26000, "expenses": 21000, "profit": 5000 },
-              { "month": "May", "sales": 28000, "expenses": 22000, "profit": 6000 },
-              { "month": "Jun", "sales": 25000, "expenses": 20500, "profit": 4500 }
-            ]
+            "department": "Logística"
           }
         ]
       }
@@ -437,15 +309,7 @@
             "employees": 200,
             "revenue": 450000,
             "tickets":78,
-            "department": "Tecnología",
-            "monthlyData": [
-              { "month": "Ene", "sales": 40000, "expenses": 33000, "profit": 7000 },
-              { "month": "Feb", "sales": 42000, "expenses": 34000, "profit": 8000 },
-              { "month": "Mar", "sales": 41000, "expenses": 33500, "profit": 7500 },
-              { "month": "Apr", "sales": 46000, "expenses": 37000, "profit": 9000 },
-              { "month": "May", "sales": 48000, "expenses": 38000, "profit": 10000 },
-              { "month": "Jun", "sales": 44000, "expenses": 36000, "profit": 8000 }
-            ]
+            "department": "Tecnología"
           },
           {
             "id": 3002,
@@ -456,15 +320,7 @@
             "employees": 180,
             "revenue": 400000,
             "tickets":165,
-            "department": "Finanzas",
-            "monthlyData": [
-              { "month": "Ene", "sales": 38000, "expenses": 31000, "profit": 7000 },
-              { "month": "Feb", "sales": 40000, "expenses": 32000, "profit": 8000 },
-              { "month": "Mar", "sales": 39000, "expenses": 31500, "profit": 7500 },
-              { "month": "Apr", "sales": 43000, "expenses": 34000, "profit": 9000 },
-              { "month": "May", "sales": 45000, "expenses": 35000, "profit": 10000 },
-              { "month": "Jun", "sales": 41000, "expenses": 33000, "profit": 8000 }
-            ]
+            "department": "Finanzas"
           },
           {
             "id": 3003,
@@ -475,15 +331,7 @@
             "employees": 240,
             "revenue": 350000,
             "tickets":105,
-            "department": "Marketing",
-            "monthlyData": [
-              { "month": "Ene", "sales": 33000, "expenses": 28000, "profit": 5000 },
-              { "month": "Feb", "sales": 35000, "expenses": 29000, "profit": 6000 },
-              { "month": "Mar", "sales": 34000, "expenses": 28500, "profit": 5500 },
-              { "month": "Apr", "sales": 38000, "expenses": 31000, "profit": 7000 },
-              { "month": "May", "sales": 40000, "expenses": 32000, "profit": 8000 },
-              { "month": "Jun", "sales": 36000, "expenses": 30000, "profit": 6000 }
-            ]
+            "department": "Marketing"
           }
         ]
       },
@@ -505,15 +353,7 @@
             "employees": 180,
             "revenue": 320000,
             "tickets":97,
-            "department": "Desarrollo",
-            "monthlyData": [
-              { "month": "Ene", "sales": 30000, "expenses": 25000, "profit": 5000 },
-              { "month": "Feb", "sales": 32000, "expenses": 26000, "profit": 6000 },
-              { "month": "Mar", "sales": 31000, "expenses": 25500, "profit": 5500 },
-              { "month": "Apr", "sales": 35000, "expenses": 28000, "profit": 7000 },
-              { "month": "May", "sales": 37000, "expenses": 29000, "profit": 8000 },
-              { "month": "Jun", "sales": 33000, "expenses": 27000, "profit": 6000 }
-            ]
+            "department": "Desarrollo"
           }
         ]
       },
@@ -535,15 +375,7 @@
             "employees": 180,
             "revenue": 280000,
             "tickets":69,
-            "department": "Ventas",
-            "monthlyData": [
-              { "month": "Ene", "sales": 26000, "expenses": 22000, "profit": 4000 },
-              { "month": "Feb", "sales": 28000, "expenses": 23000, "profit": 5000 },
-              { "month": "Mar", "sales": 27000, "expenses": 22500, "profit": 4500 },
-              { "month": "Apr", "sales": 31000, "expenses": 25000, "profit": 6000 },
-              { "month": "May", "sales": 33000, "expenses": 26000, "profit": 7000 },
-              { "month": "Jun", "sales": 29000, "expenses": 24000, "profit": 5000 }
-            ]
+            "department": "Ventas"
           }
         ]
       }
