@@ -59,9 +59,9 @@ export const DashboardChart = () => {
 
   // Si hay oficina seleccionada → mostramos solo tarjeta con texto
   if (selectedCountryId && selectedCityId && selectedOfficeId) {
-    const country = countries.find((c: Country) => c.id === selectedCountryId);
-    const city = country?.cities.find((c: City) => c.id === selectedCityId);
-    const office = city?.offices.find((o: Office) => o.id === selectedOfficeId);
+    const country = countries.find((country: Country) => country.id === selectedCountryId);
+    const city = country?.cities.find((city: City) => city.id === selectedCityId);
+    const office = city?.offices.find((office: Office) => office.id === selectedOfficeId);
 
     if (office && city) {
       const totalOfficesInCity = city.offices.length;
@@ -102,8 +102,6 @@ export const DashboardChart = () => {
       );
     }
   }
-
-  // Si hay ciudad seleccionada → mostramos tarjeta con lista de oficinas
   if (selectedCountryId && selectedCityId) {
     const selectedCountry = countries.find(
       (country: Country) => country.id === selectedCountryId
@@ -162,7 +160,7 @@ export const DashboardChart = () => {
 
   if (selectedCountryId) {
     const selectedCountry = countries.find(
-      (c: Country) => c.id === selectedCountryId
+      (country: Country) => country.id === selectedCountryId
     );
     if (selectedCountry) {
       chartTitle = `Oficinas • ${selectedCountry.name}`;
@@ -172,8 +170,8 @@ export const DashboardChart = () => {
   } else {
     chartTitle = "Oficinas Global";
     labels = countries.map((c) => c.name);
-    data = countries.map((c) =>
-      c.cities.reduce((acc, city) => acc + city.offices.length, 0)
+    data = countries.map((country:Country) =>
+      country.cities.reduce((acc, city) => acc + city.offices.length, 0)
     );
   }
 
@@ -280,7 +278,6 @@ export const DashboardChart = () => {
 
   return (
     <div className="w-full h-full flex flex-col min-h-0">
-      {/* Header */}
       <div className="flex-shrink-0 mb-4 md:mb-6">
         <div className="flex items-center space-x-3">
           <div className="w-2 h-2 bg-green-500 rounded-full"></div>
@@ -290,13 +287,9 @@ export const DashboardChart = () => {
           Cantidad de oficinas por región
         </p>
       </div>
-
-      {/* Contenedor del gráfico */}
       <div className="flex-1 min-h-0 relative">
         <Bar data={chartData} options={options} />
       </div>
-
-      {/* Footer */}
       <div className="flex-shrink-0 mt-4 pt-4 border-t border-gray-100">
         <div className="flex justify-between items-center text-xs text-gray-500">
           <span>Total: {total.toLocaleString()} oficinas</span>

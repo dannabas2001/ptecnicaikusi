@@ -27,13 +27,11 @@ export const DashboardFilters = () => {
   const cities = selectedCountry ? selectedCountry.cities : [];
   const selectedCity = cities.find((city: City) => city.id === selectedCityId);
   const offices = selectedCity ? selectedCity.offices : [];
-
   const filterClass =
     "w-full flex items-center gap-2 px-3 py-1.5 border border-gray-300 rounded-2xl bg-gray-50 text-sm focus:outline-none focus:ring-2 focus:ring-blue-400 transition duration-200 hover:bg-gray-100 disabled:opacity-50 disabled:cursor-not-allowed";
 
   return (
     <div className="bg-white shadow-xl rounded-2xl p-4 md:p-6 flex flex-row flex-wrap gap-3 md:gap-6 justify-center items-start md:items-end">
-      {/* País */}
       <div className="flex flex-col flex-1 min-w-[120px] md:min-w-[160px]">
         <label className="mb-1 md:mb-2 font-semibold text-gray-700 flex items-center gap-1 text-sm md:text-base">
           <FaGlobe /> País
@@ -52,7 +50,6 @@ export const DashboardFilters = () => {
         </select>
       </div>
 
-      {/* Ciudad */}
       <div className="flex flex-col flex-1 min-w-[120px] md:min-w-[160px]">
         <label className="mb-1 md:mb-2 font-semibold text-gray-700 flex items-center gap-1 text-sm md:text-base">
           <FaCity /> Ciudad
@@ -71,8 +68,6 @@ export const DashboardFilters = () => {
           ))}
         </select>
       </div>
-
-      {/* Oficina */}
       <div className="flex flex-col flex-1 min-w-[120px] md:min-w-[160px]">
         <label className="mb-1 md:mb-2 font-semibold text-gray-700 flex items-center gap-1 text-sm md:text-base">
           <FaBuilding /> Oficina

@@ -34,7 +34,6 @@ const LoginForm = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-50 flex items-center justify-center p-4 overflow-hidden">
       
-      {/* Logo/Brand en la parte superior */}
       <div className="absolute top-8 left-8">
         <div className="flex items-center space-x-2 text-gray-800">
           <div className="w-8 h-8 bg-gray-900 rounded-lg flex items-center justify-center">

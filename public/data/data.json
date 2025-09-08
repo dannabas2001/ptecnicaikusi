@@ -85,6 +85,39 @@
         ]
       },
       {
+        "id": 102,
+        "name": "Medellín",
+        "type": "city",
+        "countryId": 1,
+        "population": 2500000,
+        "totalEmployees": 320,
+        "totalRevenue": 680000,
+        "offices": [
+          {
+            "id": 1004,
+            "name": "Oficina Poblado",
+            "type": "office",
+            "cityId": 102,
+            "address": "El Poblado #43-87",
+            "employees": 200,
+            "revenue": 450000,
+            "tickets":150,
+            "department": "Tecnología"
+          },
+          {
+            "id": 1005,
+            "name": "Oficina Laureles",
+            "type": "office",
+            "cityId": 102,
+            "address": "Laureles #70-25",
+            "employees": 120,
+            "revenue": 230000,
+            "tickets":190,
+            "department": "Recursos Humanos"
+          }
+        ]
+      },
+      {
         "id": 103,
         "name": "Cali",
         "type": "city",
